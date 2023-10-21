@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="insert_your_mail">Insert your mail</string>
+    <string name="send">Send</string>
 </resources>
