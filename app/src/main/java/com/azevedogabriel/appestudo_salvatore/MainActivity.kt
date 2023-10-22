@@ -16,7 +16,19 @@ class MainActivity : AppCompatActivity() {
         val mailSend = findViewById<EditText>(R.id.edtMail)
 
         buttonSend.setOnClickListener {
-            helloWorld.text = mailSend.text
+            val mail = mailSend.text.toString()
+
+            if(mail.isBlank()){
+                mailSend.error = "Please enter a valid e-mail address!"
+            }else{
+                helloWorld.text = mail
+            }
+        }
+        val  buttonClear = findViewById<Button>(R.id.buttonTwo)
+
+        buttonClear.setOnClickListener {
+            helloWorld.text = ""
+            mailSend.text = null
         }
     }
 }
