@@ -42,5 +42,19 @@
         app:layout_constraintTop_toBottomOf="@+id/edtMail"
         />
 
+    <!--- -->
+    <Button
+        android:id="@+id/buttonTwo"
+        android:text="@string/clear"
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonOne"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
