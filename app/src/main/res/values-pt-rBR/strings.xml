@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minha aplicação</string>
+    <string name="insert_your_mail">Insira seu email</string>
+    <string name="send">Enviar</string>
+    <string name="clear">Limpar</string>
+    <string name="insert_your_name">Insira seu nome</string>
+    <string name="name">nome</string>
+</resources>
